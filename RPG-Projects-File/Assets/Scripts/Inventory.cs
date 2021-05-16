@@ -6,8 +6,6 @@ public class Inventory : MonoBehaviour
 {
     #region
     public static Inventory instance;
- 
-
     private void Awake()
     {
         if(instance!=null)
@@ -18,6 +16,7 @@ public class Inventory : MonoBehaviour
         instance = this;
     }
     #endregion
+
     public List<Item> items = new List<Item>();
     public int itemCountEnough = 20;
 
