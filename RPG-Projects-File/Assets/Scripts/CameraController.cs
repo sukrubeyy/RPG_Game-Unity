@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
     public Transform target;
     public Vector3 offset;
     private float zoomCurrent = 10f;
-    private float  pitch=2f;
+    public float  pitch=2f;
 
     public float zoomSpeed = 4f;
     public float maxZoom = 15f;
@@ -20,6 +20,7 @@ public class CameraController : MonoBehaviour
     {
         zoomCurrent -= Input.GetAxis("Mouse ScrollWheel") * zoomSpeed;
         zoomCurrent = Mathf.Clamp(zoomCurrent, minZoom, maxZoom);
+
         inputCamHorizontal -= Input.GetAxis("Horizontal") * camRotateSpeed * Time.deltaTime;
     }
 
@@ -27,7 +28,7 @@ public class CameraController : MonoBehaviour
     {
         //Aradaki farkı bulup zoomCurrent ile çarpıp kameramızın pozisyonunu belirliyoruz
         transform.position = target.position - offset * zoomCurrent;
-        //Hedef objeye bakması için her frame'de döndürür
+        //Hedef objeye bakması için her frame'de döndürür. Y ekseninde farklılık yaratır.
         transform.LookAt(target.position+Vector3.up*pitch);
         //
         transform.RotateAround(target.position, Vector3.up, inputCamHorizontal);

@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour
     Camera cam;
     Ray ray;
     RaycastHit hit;
+
     PlayerMotor motor;
+
     public Interactable focus;
     private void Start()
     {

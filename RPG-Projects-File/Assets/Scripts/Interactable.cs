@@ -4,7 +4,7 @@ public class Interactable : MonoBehaviour
 {
     public float radius = 3f;
     bool isFocus = false;
-     Transform player;
+    Transform player;
     bool interacted = false;
 
     public Transform interactionsTransform;
@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void Interact()
     {
-
+        Debug.Log("instracted");
     }
     public void OnFocus(Transform playerTransform)
     {
