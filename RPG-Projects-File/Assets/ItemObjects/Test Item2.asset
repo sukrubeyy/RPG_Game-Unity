@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f523725c88d950408c83f65a2d079f9, type: 3}
-  m_Name: Test Item
+  m_Name: Test Item2
   m_EditorClassIdentifier: 
-  itemName: Cube Helmet
-  icon: {fileID: 0}
+  itemName: Sphere
+  icon: {fileID: 21300000, guid: 4b7cf663acb0b9a4bbc2ffceddbfdda6, type: 3}
   isDefaultItem: 0
