@@ -585,7 +585,7 @@ GameObject:
   - component: {fileID: 205856955}
   - component: {fileID: 205856954}
   m_Layer: 0
-  m_Name: ItemTest
+  m_Name: Helmet of Fire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -603,9 +603,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e01af6874f2c094d98b3f4ea1c0ca30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 0.5
   interactionsTransform: {fileID: 205856958}
-  item: {fileID: 11400000, guid: 3394f65f57f8fd840943059e6be0984d, type: 2}
+  item: {fileID: 11400000, guid: b1d6d252b68b13f4e96d7c555f96b1a4, type: 2}
 --- !u!65 &205856955
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -691,6 +691,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InventorySlot (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
@@ -1475,6 +1480,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1906,6 +1916,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InventorySlot (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
@@ -2449,6 +2464,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
       propertyPath: m_Pivot.x
@@ -2573,6 +2593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InventorySlot (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
@@ -3403,6 +3428,115 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1566845312}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &849784832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 849784837}
+  - component: {fileID: 849784836}
+  - component: {fileID: 849784835}
+  - component: {fileID: 849784834}
+  - component: {fileID: 849784833}
+  m_Layer: 0
+  m_Name: Sword of destiny
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &849784833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849784832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e01af6874f2c094d98b3f4ea1c0ca30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 0.5
+  interactionsTransform: {fileID: 849784837}
+  item: {fileID: 11400000, guid: be761cfaa3fb3cb48b4b8c4661155729, type: 2}
+--- !u!65 &849784834
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849784832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &849784835
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849784832}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 03e5f82618115e044814d00b79835194, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &849784836
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849784832}
+  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &849784837
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 849784832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.08, y: -4.42, z: 14.517}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &862936265
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4565,6 +4699,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
       propertyPath: m_Pivot.x
@@ -4812,6 +4951,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InventorySlot (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
@@ -5808,6 +5952,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventorySlot (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
       propertyPath: m_Pivot.x
@@ -6176,6 +6325,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1554208946}
   - component: {fileID: 1554208947}
+  - component: {fileID: 1554208948}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -6211,6 +6361,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   items: []
   itemCountEnough: 20
+--- !u!114 &1554208948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554208945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abe396a599d9c29458010e1db121c877, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1556650362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6467,7 +6629,7 @@ GameObject:
   - component: {fileID: 1566086943}
   - component: {fileID: 1566086942}
   m_Layer: 0
-  m_Name: ItemTest2
+  m_Name: Helmet of protection
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6485,9 +6647,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e01af6874f2c094d98b3f4ea1c0ca30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  radius: 3
+  radius: 0.5
   interactionsTransform: {fileID: 1566086946}
-  item: {fileID: 11400000, guid: 699e5a18f5050c04b9d77e1a3a8667f1, type: 2}
+  item: {fileID: 11400000, guid: 72d385cfbb8138740bf90c4e4bd0adb1, type: 2}
 --- !u!65 &1566086943
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7298,6 +7460,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InventorySlot (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}
@@ -8280,6 +8447,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: InventorySlot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3660088077508731352, guid: 707772c540140ee49b4ddb6ed5efdbfa,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3660088077508731353, guid: 707772c540140ee49b4ddb6ed5efdbfa,
         type: 3}

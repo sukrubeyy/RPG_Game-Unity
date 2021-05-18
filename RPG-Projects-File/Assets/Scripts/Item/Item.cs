@@ -12,4 +12,9 @@ public class Item : ScriptableObject
         //Use Item
         Debug.Log("Using Item : " + itemName);
     }
+
+    public void RemoveFromInventory()
+    {
+        Inventory.instance.Remove(this);
+    }
 }
