@@ -8,6 +8,7 @@ public class Equipment : Item
     public EquipmentSlot slotEquipment;
     public int ArmorModifier;
     public int DamageModifier;
+    public SkinnedMeshRenderer mesh;
     public override void Use()
     {
         EquipmentManager.instance.Equip(this);
