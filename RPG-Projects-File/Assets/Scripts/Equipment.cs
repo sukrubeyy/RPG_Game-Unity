@@ -6,9 +6,14 @@ using UnityEngine;
 public class Equipment : Item
 {
     public EquipmentSlot slotEquipment;
+
+    public EquipmentMeshRegion[] coveredMeshRegion;  
+   public SkinnedMeshRenderer mesh;
+
     public int ArmorModifier;
     public int DamageModifier;
-    public SkinnedMeshRenderer mesh;
+
+
     public override void Use()
     {
         EquipmentManager.instance.Equip(this);
@@ -21,3 +26,4 @@ public enum EquipmentSlot
 {
     Head,Chest,Legs,Weapon,Shield,Feet
 }
+public enum EquipmentMeshRegion { Legs,Arms,Torso};

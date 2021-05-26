@@ -23,7 +23,7 @@ public class Interactable : MonoBehaviour
 
     public virtual void Interact()
     {
-        Debug.Log("instracted");
+        
     }
     public void OnFocus(Transform playerTransform)
     {
